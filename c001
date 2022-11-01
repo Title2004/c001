@@ -1,0 +1,12 @@
+string s1, s2, s3;
+s1 = "GULBAHOR";
+s2.assign(s1, 0, 3); // s2 = "GUL"
+s3.assign(s1, 3, 5); // s3 = "BAHOR"
+cout << s1 << endl;
+cout << s2 << endl;
+cout << s3 << endl;
+s1 = s3 + s2; // s1 = "BAHORGUL"
+cout << s1 << endl;
+s2.append(s3); // s2 = "GULBAHOR"
+cout << s2 << endl;
+return 0;
